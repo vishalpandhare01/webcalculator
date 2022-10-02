@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    /* border: solid red 1px; */
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container{
+    /* border: solid red 1px; */
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: gray;   
+}
+
+.screen{
+    border: solid red 1px;
+    height: auto;
+    width: 95%;
+    display: flex;
+    margin: 3px;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: -3px 1px 4px ;
+    background-color: aqua;
+    justify-content: end;
+    flex-direction: column;
+    display: inline-block;
+}
+p{
+    width: 100%;      
+    padding: 10px;      
+    word-wrap: break-word;
+    font-size: 1em;    
+}
+
+.numbers{
+    /* border: solid red 1px; */
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: -3px 1px 4px ;
+    background-color: aqua;
+
+}
+
+.box{
+    border: solid red 1px;
+    height: 10vh;
+    width: 17%;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: -3px 1px 4px ;
+    background-color: gray;
+
+}
+h2{
+    font-size: 32px;
+    color: azure;
+}
+
+/* mode----------------> */
+.modebtn{
+    width: 70px;
+    height: 4.5vh;
+    margin-left: 10px;
+    border: solid 2px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -1px 2px 1px;
+}
+#dark{
+  color: black;
+  background-color: black;
+  border-color: black;
+  border: solid black;
+  width: 45%;
+  border-radius: 200px;
+  padding: 3px;
+}
+#white{
+  color: gray;
+  background-color: gray;
+  border-color: gray;
+  border: solid gray;
+  width: 45%;
+  border-radius: 200px;
+  padding: 3px;
+}
+

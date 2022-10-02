@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="mode">
+   
+    <br>
+    <br>
+<div class="main">
+    <div class="container">
+        <h2>Calculator</h2>
+        <!-- mode btn  -->
+        <div class="modebtn">
+            <button id="dark" onclick="darkmode()">D</button>
+            <button id="white" onclick=" whitemode()">w</button>
+           </div>
+        <!-- screen  -->
+        <div class="screen" id="maindisplay" name="screen">
+            <p id="display" style="align-items: flex-start;">0</p>
+            <p  id="screen" style="color: blue;" ></p>
+        </div>
+        <div class="numbers" id="numbers">
+            <div class="box" onclick="one()" id="1">1</div>
+            <div class="box" onclick="two()" id="2">2</div>
+            <div class="box"  onclick="three()" id="3">3</div>
+            <div class="box"  onclick="four()" id="4">4</div>
+            <div class="box" onclick="five()"  id="5">5</div>
+            <div class="box" onclick="six()"  id="6">6</div>
+            <div class="box"  onclick="seven()"  id="7">7</div>
+            <div class="box" onclick="eight()"  id="8">8</div>
+            <div class="box" onclick="nine()"  id="9">9</div>
+            <div class="box" onclick="zero()"  id="0">0</div>
+            <div class="box" onclick="add()" id="+">+</div>
+            <div class="box" onclick="sub()"  id="-">-</div>
+            <div class="box" onclick="multy()" id="x">x</div>
+            <div class="box" onclick="divi()" id="/">/</div>
+            <div class="box" onclick="point()" id=".">.</div>
+            <div class="box" onclick="equlto()"  id="=">=</div>
+            <div class="box" onclick="remove()"  id="="><=</div>
+            <a  type="button" class="box" style="color:black;" href="/">R</a>
+        </div>
+    </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
