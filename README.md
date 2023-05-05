@@ -1,6 +1,6 @@
 # Webcalculator
 This is simple web calculator which will help you complex calculation with night mode and day mode don't forget to visite web site
-https://vishalpandhare01.github.io/webcalculator/
+https://spiffy-pony-927aa3.netlify.app/
 
 ## Night mode
 ![Screenshot (24)](https://user-images.githubusercontent.com/99859675/201262839-7c9da973-75cd-454c-bae7-4c00be1e56a6.png)
